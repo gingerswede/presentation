@@ -115,7 +115,7 @@ Impress.js used to make this presentations. Find out more at https://github.com/
 						<li>Mjukvaruutvecklingsmetodik</li>
 						<li>Gränssnittsutveckling</li>
 						<li>Databasteknik</li>
-						<li>ASP.NET WebForms</li>
+						<li>ASP.NET</li>
 						<li>Individuellt mjukvaruprojekt</li>
 					</ul>
 				</div>
@@ -150,7 +150,7 @@ Impress.js used to make this presentations. Find out more at https://github.com/
 				<div class="left">
 					<h2>Utvecklare av digitala tjänster</h2>
 					<ul>
-						<li>Adroid utveckling</li>
+						<li>Android utveckling</li>
 						<li>Spelutveckling</li>
 						<li>3D-grafik/OpenGL</li>
 					</ul>
@@ -165,7 +165,7 @@ Impress.js used to make this presentations. Find out more at https://github.com/
 						<li>JavaScript (fördjupning)</li>
 						<li>ASP.NET</li>
 						<li>Single Page Application</li>
-						<li>Grupp projekt</li>
+						<li>Grupprojekt</li>
 						<li>Självständigt fördjupningsarbete</li>
 					</ul>
 				</div>
@@ -173,16 +173,17 @@ Impress.js used to make this presentations. Find out more at https://github.com/
 
 			<div id="year-two-common" class="step" data-x="4500" data-y="2100" data-rotate="180" data-scale="3">
 				<p>
-					...men lite mer om <b class="rotating">utvecklingsteori</b> och <b class="scaling">kodkvalitet</b> gemensamt.
+					...men lite mer om <b class="rotating">utvecklingsteori</b> och <b class="scaling">kodkvalitet</b> gemensamt under år två.
 				</p>
 			</div>
 			
 			<div id="year-three" class="step slide_style" data-x="5500" data-y="-1500" data-rotate="90" data-scale="1">
-				<h1>År tre</h1>		
+				<h1>År tre</h1>
 					<ul class="ul_btntrans">
 						<li>Mjukvaruarkitekturer</li>
 						<li>Mjukvarutestning</li>
 						<li>RIA-utveckling</li>
+						<li>Valbara kurser</li>
 						<li>Examensarbete</li>
 					</ul>
 					<img src="button.png" class="btn_transp" />
@@ -208,18 +209,6 @@ Impress.js used to make this presentations. Find out more at https://github.com/
 				<p>Sökmotoroptimeringsspecialist</p>
 			</div>
 
-			<!--
-
-			And the last one shows full power and flexibility of impress.js.
-
-			You can not only position element in 3D, but also rotate it around any axis.
-			So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
-			10 degrees (clockwise) around Y axis.
-
-			You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
-			as `data-rotate` (these two are basically aliases).
-
-			-->
 			<div id="contact" class="step slide" data-x="8000" data-y="3300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
 				<h1>Frågor?</h1>
 				<p class="small">Har du några frågor som dyker om senare? Kontakta gärna programansvarige!</p>
@@ -244,31 +233,7 @@ Impress.js used to make this presentations. Find out more at https://github.com/
 			</div>
 
 		</div>
-
-		<!--
-
-		Hint is not related to impress.js in any way.
-
-		But it can show you how to use impress.js features in creative way.
-
-		When the presentation step is shown (selected) its element gets the class of "active" and the body element
-		gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
-		so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
-		the id of `bored`) is active, body element gets a class of `impress-on-bored`.
-
-		This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
-		the first step of presentation is visible for a couple of seconds.
-
-		...
-
-		And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
-		It's just a quick and dirty workaround to get different hint text for touch devices.
-		In a real world it should be at least placed in separate JS file ... and the touch content should be
-		probably just hidden somewhere in HTML - not hard-coded in the script.
-
-		Just sayin' ;)
-
-		-->
+		
 		<div class="hint">
 			<p>
 				Use a spacebar or arrow keys to navigate
